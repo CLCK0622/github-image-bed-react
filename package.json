@@ -2,7 +2,6 @@
   "name": "github-image-bed-react",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "vercel-build": "vite build",
@@ -11,9 +10,17 @@
   },
   "dependencies": {
     "axios": "^1.7.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "multer": "1.4.5-lts.1",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.0"
+    "react-router-dom": "^6.26.0",
+    "session": "^0.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",

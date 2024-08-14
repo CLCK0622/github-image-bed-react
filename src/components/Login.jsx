@@ -4,7 +4,7 @@ const Login = () => {
     return (
         <div>
             <h1>GitHub Image Bed</h1>
-            <a href='/auth/github'><button>Login with GitHub</button></a>
+            <a href='/api/auth/github'><button>Login with GitHub</button></a>
         </div>
     )
 }
